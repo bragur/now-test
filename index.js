@@ -12,4 +12,4 @@ app.use('*', (req, res) => {
   res.send("What's up?");
 });
 
-app.listen(port, () => console.log(`Server listening at port ${port}`));
+module.exports = app;
