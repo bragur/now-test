@@ -1,5 +1,6 @@
 {
   "version": 2,
   "name": "now-test",
-  "builds": [{ "src": "*.js", "use": "@now/node-server" }]
+  "builds": [{ "src": "server.js", "use": "@now/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "server.js" }]
 }
