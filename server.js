@@ -8,4 +8,8 @@ app.use('/', (req, res) => {
   res.send({ name: 'Óli' });
 });
 
+app.use('*', (req, res) => {
+  res.send("What's up?");
+});
+
 app.listen(port, () => console.log(`Server listening at port ${port}`));
