@@ -1,16 +1,15 @@
 {
   "name": "simple-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple server with a single endpoint to demonstrate how Now from ZEIT works.",
   "main": "index.js",
   "scripts": {
     "start": "node ."
   },
   "keywords": [],
-  "author": "",
+  "author": "Bragi Bergthorsson <bragur@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "7.0.0",
     "express": "4.16.4"
   }
 }
